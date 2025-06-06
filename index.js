@@ -1,10 +1,10 @@
-import { Client, Events, SlashCommandBuilder } from "discord.js";
+import { Client, Events, Routes, SlashCommandBuilder } from "discord.js";
 import { config } from "dotenv";
 
 import ping from "./commands/ping.js";
 import e from "express";
 
-const router = require('./routes')
+const router = e.Router()  
 
 const app = e()
 app.use(e.json())
