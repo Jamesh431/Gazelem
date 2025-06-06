@@ -7,7 +7,7 @@ module.exports = {
 
  
   development: {
-    client: 'postgresql',
+    client: 'sqlite3',
     connection: {
       database: 'gazelem',
       user:     'JSmith',
